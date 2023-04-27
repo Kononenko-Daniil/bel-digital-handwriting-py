@@ -1,3 +1,7 @@
+# Project
+slouniki/
+test_text.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -96,6 +100,8 @@ ipython_config.py
 __pypackages__/
 
 # Celery stuff
+
+
 celerybeat-schedule
 celerybeat.pid
 

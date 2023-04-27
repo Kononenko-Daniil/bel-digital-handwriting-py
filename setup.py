@@ -1,6 +1,6 @@
 from setuptools import setup
 
-from BelDHAnalyser import __version__
+from BelDigitalHandwriting import __version__
 
 with open("README.md", "r", encoding="utf-8") as f:
     readme = f.read()
@@ -13,8 +13,8 @@ setup(
     long_description_content_type='text/markdown',
     url='https://github.com/Kononenko-Daniil/bel-digital-handwriting-py',
     author='Daniil Kononenko',
-    package_dir={'BelDHAnalyser': 'BelDHAnalyser'},
-    packages=['BelDHAnalyser'],
+    package_dir={'BelDigitalHandwriting': 'BelDigitalHandwriting'},
+    packages=['BelDigitalHandwriting'],
     license="MIT",
     project_urls={
         "Source": "https://github.com/Kononenko-Daniil/bel-digital-handwriting-py"
