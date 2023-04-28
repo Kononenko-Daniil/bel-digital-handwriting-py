@@ -29,8 +29,8 @@ def get_vowel_consonant_rate(all_symbol_rate: dict, text: str):
             vowel_count += all_symbol_rate[symbol][0]
 
     vowel_consonant_rate = {
-        "vowels": [vowel_count, vowel_count / len(text) * 100],
-        "consonant": [consonant_count, consonant_count / len(text) * 100]
+        "vowels": [vowel_count, vowel_count / len(text)],
+        "consonant": [consonant_count, consonant_count / len(text)]
     }
 
     return vowel_consonant_rate
