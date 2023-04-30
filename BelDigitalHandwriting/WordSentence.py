@@ -181,7 +181,6 @@ def get_speech_part_word_rate(text: str):
 
     recognized_words_count = 0
     for slounik_name in os.listdir(slouniki_dir):
-        print(slounik_name)
         slounik_path = os.path.join(slouniki_dir, slounik_name)
         slounik = open(slounik_path, 'r', encoding='utf-8')
         slounik_data = slounik.read().split('#')
