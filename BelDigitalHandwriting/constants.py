@@ -14,7 +14,7 @@ accepted_symbols = punctuation_marks + numbers + foreign_letters + bel_letters
 vowel_letters = "аеоуыэяяёі"
 consonant_letters = "бвгджзйклмнпрстўфхцчшь"
 
-pair_types = ["ГГ", "ЗГ", "ГЗ", "ЗЗ"]
+pair_types = ["VV", "CV", "VC", "CC"]
 
 speech_parts_gr = {
     "nazounik.txt": "N",

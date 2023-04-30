@@ -138,8 +138,8 @@ def get_symbol_per_sentence_rate(text: str, sentence_count: int, symbol):
 def get_vowel_consonant_pair_rate(text: str):
     words = divide_text_to_words(text)
     word_pairs = []
-    pair_start_rate = {"ГГ": 0, "ЗГ": 0, "ГЗ": 0, "ЗЗ": 0}
-    pair_end_rate = {"ГГ": 0, "ЗГ": 0, "ГЗ": 0, "ЗЗ": 0}
+    pair_start_rate = {"VV": 0, "CV": 0, "VC": 0, "CC": 0}
+    pair_end_rate = {"VV": 0, "CV": 0, "VC": 0, "CC": 0}
 
     for i in range(0, len(words) - 1):
         def get_word_letter_type(word: str, is_first: bool):
@@ -148,9 +148,9 @@ def get_vowel_consonant_pair_rate(text: str):
             else:
                 index = len(word)-1
             if word[index] in constants.vowel_letters:
-                return "Г"
+                return "V"
             else:
-                return "З"
+                return "C"
 
         res_pair_start = get_word_letter_type(words[i], True) + get_word_letter_type(words[i+1], True)
         res_pair_end = get_word_letter_type(words[i], False) + get_word_letter_type(words[i+1], False)

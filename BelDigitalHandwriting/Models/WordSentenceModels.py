@@ -40,13 +40,6 @@ class VowelConsonantPairRate:
                                               self.pair_count,
                                               other.pair_count)
 
-            # new_start_pair_rate, new_end_pair_rate = \
-            #     map(add_pair_rate,
-            #         [self.pair_start_rate, self.pair_end_rate],
-            #         [other.pair_start_rate, other.pair_end_rate],
-            #         [self.pair_count, self.pair_count],
-            #         [other.pair_count, other.pair_count])
-
             new_rate = VowelConsonantPairRate(
                 new_pair_count,
                 new_start_pair_rate,

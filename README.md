@@ -8,8 +8,18 @@ import BelDigitalHandwriting.BelDHAnalyser as BelDHAnalyser
 text_file = open("text.txt", "r", encoding="utf-8")
 text = text_file.read()
 
-text_info = BelDHAnalyser.analyse_text(text)
+analyze = BelDHAnalyser.analyse_text(text)
 ```
+
+## Што можа гэта бібліятэка
+ - **Аналізаваць** тэксты:
+    ```
+    analyze = BelDHAnalyser.analyse_text(text)
+    ```
+ - **Сумяшчаць** аналізы тэкстаў
+    ```
+    commom_analyze = analyze_1 + analyze_2
+    ```
 
 ## Як карыстацца гэтай бібліятэкай
 Каб пачаць выкарыстоўваць **bel-digital-handwriting-py**, вы павінны ўсталяваць бібліятэку
