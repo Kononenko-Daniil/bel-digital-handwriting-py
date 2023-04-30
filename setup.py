@@ -13,8 +13,11 @@ setup(
     long_description_content_type='text/markdown',
     url='https://github.com/Kononenko-Daniil/bel-digital-handwriting-py',
     author='Daniil Kononenko',
-    package_dir={'BelDigitalHandwriting': 'BelDigitalHandwriting'},
-    packages=['BelDigitalHandwriting'],
+    package_dir={
+        'BelDigitalHandwriting': 'BelDigitalHandwriting',
+        'BelDigitalHandwriting.Models': 'BelDigitalHandwriting/Models'
+    },
+    packages=['BelDigitalHandwriting', 'BelDigitalHandwriting.Models'],
     license="MIT",
     project_urls={
         "Source": "https://github.com/Kononenko-Daniil/bel-digital-handwriting-py"
