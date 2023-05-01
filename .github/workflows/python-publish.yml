@@ -1,8 +1,7 @@
 name: Upload Python Package
 
 on:
-  release:
-    type: [published]
+  push
 
 permissions:
   contents: read
