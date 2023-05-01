@@ -15,13 +15,11 @@ setup(
     author='Daniil Kononenko',
     package_dir={
         'BelDigitalHandwriting': 'BelDigitalHandwriting',
-        'BelDigitalHandwriting.Models': 'BelDigitalHandwriting/Models',
-        'BelDigitalHandwriting.slouniki_parsed': 'BelDigitalHandwriting/slouniki_parsed'
+        'BelDigitalHandwriting.Models': 'BelDigitalHandwriting/Models'
     },
     packages=[
         'BelDigitalHandwriting',
         'BelDigitalHandwriting.Models',
-        'BelDigitalHandwriting.slouniki_parsed'
     ],
     license="MIT",
     project_urls={
