@@ -21,6 +21,7 @@ setup(
         'BelDigitalHandwriting',
         'BelDigitalHandwriting.Models',
     ],
+    package_data={'BelDigitalHandwriting': ['slouniki_parsed/*.txt']},
     license="MIT",
     project_urls={
         "Source": "https://github.com/Kononenko-Daniil/bel-digital-handwriting-py"
