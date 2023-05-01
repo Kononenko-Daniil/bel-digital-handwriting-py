@@ -1,1 +1,1 @@
-include BelDigitalHandwriting/slouniki_parsed/*.txt
+include slouniki_parsed/*.txt

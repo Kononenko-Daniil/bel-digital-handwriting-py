@@ -176,7 +176,7 @@ def get_vowel_consonant_pair_rate(text: str):
 
 def get_speech_part_word_rate(text: str):
     words = divide_text_to_words(text)
-    slouniki_dir = "BelDigitalHandwriting/slouniki_parsed"
+    slouniki_dir = "slouniki_parsed"
     speech_part_rate = {}
 
     recognized_words_count = 0
